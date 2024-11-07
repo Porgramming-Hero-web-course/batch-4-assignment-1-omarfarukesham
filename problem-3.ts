@@ -13,14 +13,21 @@ countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript");
 
  */
 
-function countWordOccurrences(sentence: string, p0?: string, ):void{
-    const repeatedWordCount = []
-    for(let i = 0; i < sentence.length; i++){
-        console.log(sentence[i].toLowerCase())
+function countWordOccurrences(sentence: string, word: string): number {
+    if(!sentence && !word){
+        console.error('sentence an word must not be empty!!!!')
+        return 0
     }
-}
 
-countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript");
+    const regSentenceArr = sentence.toLowerCase().split(/\W+/);
+    const matchingWord = word.toLowerCase();
+    const getResult = regSentenceArr.filter(w => w === matchingWord).length;
+    return getResult;
+  }
+
+ const checkReturnResult = countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript");
+//  const checkReturnResult = countWordOccurrences("javascript, javascript, Javascript, is great. I love javascritp!", "Javascript");
+//  console.log(checkReturnResult)
 
 
 
