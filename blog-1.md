@@ -24,17 +24,19 @@ function userCheck(status: Status) {
 console.log(userCheck(123)); // Output: Bot
 ```
 
- **Union Types**
+ # Union Types
+
     * Improved Code Readability with clear syntax.
     * Enhanced Type Guards and control flow.
     * Strict Type Safety for better error prevention.
     * Code Flexibility for handling multiple types in a clean way.
     * Simplified Conditional Logic by avoiding complex if statements.
 
-## Intersection Type Example
+# Intersection Type Example
     Intersection types enable logical conclusions where both conditions need to be true for the operation to proceed. The intersection operator in TypeScript looks like &.
 
 ```Typescript
+// interscetion code example ... 
         type HasName = {
             name: string;
         };
