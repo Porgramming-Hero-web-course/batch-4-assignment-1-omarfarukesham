@@ -33,8 +33,10 @@ console.log(userCheck(123)); // Output: Bot
     * Code Flexibility for handling multiple types in a clean way.
     * Simplified Conditional Logic by avoiding complex if statements.
 
-# Intersection Type Example
+ **Intersection Type Example**
     Intersection types enable logical conclusions where both conditions need to be true for the operation to proceed. The intersection operator in TypeScript looks like &.
+
+    ........................
 
 ```Typescript
 // interscetion code example ... 
