@@ -24,7 +24,8 @@ function userCheck(status: Status) {
 console.log(userCheck(123)); // Output: Bot
 ```
 
- # Union Types
+
+**Significance of Union Types**
 
     * Improved Code Readability with clear syntax.
     * Enhanced Type Guards and control flow.
