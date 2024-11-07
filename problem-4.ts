@@ -36,7 +36,7 @@
       
       // Sample Input 1:
       const circleArea = calculateShapeArea({ shape: "circle", radius: 5 });
-      console.log(circleArea); // Expected Output: 78.54
+    //   console.log(circleArea); // Expected Output: 78.54
       
       // Sample Input 2:
       const rectangleArea = calculateShapeArea({
@@ -44,7 +44,7 @@
         width: 4,
         height: 6,
       });
-      console.log(rectangleArea); // Expected Output: 24
+    //   console.log(rectangleArea); // Expected Output: 24
       
 // 
 }
