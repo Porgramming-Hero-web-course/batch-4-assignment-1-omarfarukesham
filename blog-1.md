@@ -51,7 +51,7 @@ console.log(userCheck(123)); // Output: Bot
         type Person = HasName & HasAge;
 
         const person: Person = {
-            name: "Alice",
+            name: "Omar",
             age: 30,
         };
 
@@ -60,7 +60,7 @@ console.log(userCheck(123)); // Output: Bot
             console.log(`Hello, ${person.name}. You are ${person.age} years old.`);
         }
 
-        greet(person); // Output: Hello, Alice. You are 30 years old.
+        greet(person); // Output: Hello, Omar. You are 30 years old.
 
 ``` 
 **Significance of Intersection Types**
